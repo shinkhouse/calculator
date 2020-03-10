@@ -1,0 +1,59 @@
+<html>
+<head>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"  rel='stylesheet' type='text/css' />
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <meta name="viewport" content="width=device-width, initial-scale=1" user-scalable="0"/>
+<link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+<link href="style.css"  rel='stylesheet' type='text/css'>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="calculator.js"></script>
+</head>
+<body>
+  <div>
+  <div id='calculator'>
+
+    <div id='entrybox' class='text-right'>
+      <div class="entry" id='lastButtonPressed'>
+        <p id='answer'>0</p>
+      </div>
+      <div id='history'>
+        <p>0</p>
+      </div>
+    </div>
+
+    <div id='buttons'>
+
+      <button class='blue' value='ac'>AC</button>
+      <button class='blue' value='ce'>CE</button>
+      <button disabled="">%</button>
+      <button value='/'>&divide;</button>
+
+      <button value='7'>7</button>
+      <button value='8'>8</button>
+      <button value='9'>9</button>
+      <button value='*'>x</button>
+
+      <button value='4'>4</button>
+      <button value='5'>5</button>
+      <button value='6'>6</button>
+      <button value='-'>-</button>
+
+      <button value='1'>1</button>
+      <button value='2'>2</button>
+      <button value='3'>3</button>
+      <button value='+'>+</button>
+
+      <button id='zeroButton' value='0'>0</button>
+      <button value='.'>.</button>
+      <button value='='>=</button>
+
+    </div>
+    <!-- end buttons -->
+    <div id='tester'></div>
+  </div>
+  <!-- end calculator -->
+</div>
+<!-- end container -->
+
+</body>
+</html>

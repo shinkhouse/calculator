@@ -1,0 +1,103 @@
+html, body {
+  font-family: 'Montserrat', san-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+.text-left{text-align:left}
+.text-right{text-align:right}
+.text-center{text-align:center}
+.text-justify{text-align:justify}
+
+#calculator {
+  height: 100%;
+  width: 100%;
+}
+#entrybox {
+  height: 20%;
+  position: relative;
+  background: #ECE9E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#history {
+  position: relative;
+  bottom: 0px;
+  margin-right: 14px;
+  color: #000000;
+  font-size: 24px;
+}
+
+.entry {
+  position: relative;
+  top: 15px;
+  margin-right: 10px;
+  font-size: 56px;
+}
+
+#buttons {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 80%;
+  display: table;
+}
+
+button {
+  border: none;
+  border-right: 1px solid #606c88;
+  padding: 0;
+  margin: 0 !important;
+  background: #606c88;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 20%;
+  width: 25%;
+  color: #FFF;
+  font-size: 30px;
+}
+button:nth-of-type(4),button:nth-of-type(8),button:nth-of-type(12),button:nth-of-type(16),button:nth-of-type(19){
+	border-right: 0;
+}
+button:active {
+	background-color: #64686B;
+}
+button:nth-of-type(1) {
+	border-color:#00c6ff;
+}
+
+.row {
+  margin-top: 20px;
+}
+
+#zeroButton {
+  width: 50%;
+}
+.blue {
+  background: #00c6ff;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #0072ff, #00c6ff);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.blue:active {
+  background-color: #00467F;
+}
+
+button,
+button:hover,
+button:active,
+button:visited {
+  outline: none !important;
+}
+}
